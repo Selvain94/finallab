@@ -1,0 +1,392 @@
+body{
+  margin:0;
+  background-color:maroon;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+.navigation a{
+  justify-content: space-between;
+}
+
+.flex{
+  display: none;
+}
+
+.content h1{
+  display: none;
+}
+
+.popup .close-btn{
+  display: none;
+}
+
+.tagline{
+  color: white;
+  background-image: url('banner.jpg');
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 250px;
+  font-size: x-large;
+}
+
+.experience{
+  background-color: gold;
+  border-color: solid black;
+  padding: 0.05px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.opt{
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.make h3{
+  background-color: black;
+  color: white;
+}
+
+.logos{
+  display: grid;
+  grid-template-columns: repeat(7, 2fr);
+  gap:10px;
+  margin-left: 10px;
+}
+
+.logos img:hover{
+  padding: 15px;
+  background-color: gold;
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  transform: scale(1.2);
+  border-radius: 50%;
+}
+
+.models{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 10px;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+
+.models img:hover{
+  padding: 15px;
+  background-color: silver;
+  transition: transform .2s;
+  margin: 0 auto;
+  transform: scale(1.2);
+}
+
+.type h3{
+  background-color:black;
+  color: white;
+}
+
+.various{
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.various img:hover{
+  padding: 15px;
+  background-color: rgb(14, 13, 13);
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  transform: scale(1.2);
+}
+
+.arrivals{
+  text-align: center;
+  background-color: gold;
+  border-radius: 20px;
+}
+
+.models p{
+  font-size: large;
+}
+
+.title{
+  color: white;
+}
+
+.countries{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.contact_info{
+  margin-left:5px;
+  color:white;
+}
+
+.tel{
+  margin-left:5px ;
+  color: white;
+}
+
+.tel a{
+  margin-left:5px ;
+  color: white;
+  text-decoration: none;
+}
+
+.eml{
+  margin-left:5px ;
+  color: white;
+}
+
+.eml a{
+  margin-left:5px;
+  color: white;
+  text-decoration: none;
+}
+
+#submit{
+  display: block;
+}
+
+button{
+  display: none;
+}
+
+.navigation nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact_form{
+  margin-left: 5px;
+  color: white;
+}
+
+.send{
+  background-color: gold;
+  color: black;
+  width: 40px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.review h1{
+  background-color: gold;
+  color: black;
+}
+
+.review{
+  color: white;
+}
+
+.page{
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+
+    button {
+      display: block;
+      position:absolute;
+      top: 5%;
+      right:5%;
+      transform:translate(-50%,-50%);
+      padding:15px;
+      font-size:18px;
+      border:2px solid #222;
+      color:#222;
+      text-transform:uppercase;
+      font-weight:600;
+      background:#fff;
+    }
+  }
+
+
+@media only screen and (max-width: 768px) and (min-width: 450px) {
+  .content h1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}
+  
+@media only screen and (max-width: 768px) and (min-width: 450px){
+  .flex a{
+    color: rgb(253, 250, 250);
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+  .flex{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+  .navigation{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+  .logos{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .logos img:hover{
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+  .various{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .various img:hover{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+  .footer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+  .models{
+    display: grid;
+    grid-template-columns: repeat(1,50%);
+    margin:0;
+    align-items: center;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .models img:hover{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+    .popup .overlay {
+      display: block;
+      position:fixed;
+      top:0px;
+      left:0px;
+      width:100vw;
+      height:100vh;
+      background:rgba(0,0,0,0.7);
+      z-index:1;
+      display:none;
+    }
+  }
+
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+    .popup .content {
+      display: block;
+      position:absolute;
+      top: 50%;
+      right:0;
+      transform:translate(-50%,-50%) scale(0);
+      background:rgb(0, 0, 0);
+      width:95%;
+      max-width:300px;
+      height: 500px;
+      z-index:2;
+      text-align:center;
+      padding:20px;
+      box-sizing:border-box;
+      font-family:"Open Sans",sans-serif;
+    }
+  }
+
+@media only screen and (max-width: 768px) and (min-width: 450px){
+    .popup .close-btn {
+      display: block;
+      cursor:pointer;
+      position:absolute;
+      right:20px;
+      top:20px;
+      width:30px;
+      height:30px;
+      background:#222;
+      color:#fff;
+      font-size:25px;
+      font-weight:600;
+      line-height:30px;
+      text-align:center;
+      border-radius:50%;
+    }
+  }
+
+@media only screen and (max-width: 768px) and (min-width: 450px){  
+    .popup.active .overlay {
+      display:block;
+    }
+  }
+     
+@media only screen and (max-width: 768px) and (min-width: 450px){  
+    .popup.active .content {
+      display: block;
+      transition:all 300ms ease-in-out;
+      transform:translate(-50%,-50%) scale(1);
+    }
+}
+     
+@media only screen and (max-width: 768px) and (min-width: 450px){
+    button {
+      display: block;
+      position:absolute;
+      top: 5%;
+      right:2%;
+      transform:translate(-50%,-50%);
+      padding:15px;
+      font-size:18px;
+      border:2px solid #222;
+      color:#222;
+      text-transform:uppercase;
+      font-weight:600;
+      background:#fff;
+    }
+  }
+
+.cookies{
+  position: fixed;
+  bottom: 0;
+  background-color: #C0C0C0;
+  color: black;
+  width:100%;
+  text-align: center;
+  padding:5px;
+}
+
+ footer{
+   background-color: rgb(0, 0, 0);
+   color: white;
+   text-align: center;
+   padding: 40px;
+ }

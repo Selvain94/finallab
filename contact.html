@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/c490f5c886.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ace Dealership</h1>
+        <div class="navigation">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="review.html">Reviews</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+                <div class="content">
+                <div class="close-btn" onclick="togglePopup()">×</div>
+                <h1>Menu</h1>
+                <nav class="flex">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="review.html">Reviews</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <button onclick="togglePopup()"><i class="fa fa-bars"></i></button>
+     </header>
+     <div class="title">
+         <h1>Locate Us</h1>
+    </div>
+        <div class="contact_info">
+            <div>
+            <h3>Address:</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.8807039050678!2d101.7109965079267!3d3.1574877775643535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d12d669c1f%3A0xc955b08cfc1aae29!2sSuria%20KLCC!5e0!3m2!1sen!2smy!4v1629691744999!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="tel">
+            <h3>Tel:</h3>
+            <div>
+            <a href="tel:111-222-3333">111-222-3333</a>
+            </div>
+        </div>
+        <div class="eml">
+        <h3>Email:</h3>
+        <div>
+          <a href="mailto:AceCar@GA.com">AceCar@GA.com</a>
+        </div>
+    </div>
+    </div>
+    <div class="contact_form">
+        <h2>Drop us a message and our representative will get in touch with you</h2>
+        <form action="/" method="POST">
+            <label>First Name</label>
+            <input type="text" name="firstname" placeholder="John" /><br />
+            <Label>Last Name</Label>
+            <input type="text" name="lastname" placeholder="Doe" /><br />
+            <Label>Preferred date to be contacted</Label>
+            <input type="date" /><br />
+            <h4>Gender</h4>
+            <input type="radio" name="gender" value="male" />Male<br />
+            <input type="radio" name="gender" value="female" />Female<br />
+            <input type="radio" name="gender" value="other" />Other<br />
+            <h4>Preferred vehicle class</h4>
+            <input
+              type="checkbox"
+              name="class"
+              value="truck"
+            />Truck<br />
+            <input
+              type="checkbox"
+              name="class"
+              value="suv"
+            />SUV<br />
+            <input
+              type="checkbox"
+              name="class"
+              value="bike"
+            />Bike<br />
+            <br></br>
+            <div id="label-message">
+                <label>Remarks:</label>
+                <br></br>
+                <textarea
+                  placeholder="Remarks here"
+                  id="message"
+                  name="message"
+                ></textarea>
+              </div>
+              <div class="send">Send</div>
+            </form>
+    </div>
+     <div class="cookies">
+        <div>This site uses cookies to provide the best browsing experience</div>
+    </div>
+     <footer>
+        (c)Copyright Ace Dealership LLC 2021
+    </footer>
+</body>
+</html>
