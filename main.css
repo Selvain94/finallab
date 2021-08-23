@@ -200,6 +200,37 @@ button{
   text-align: center;
 }
 
+.prompt h1{
+  color: white;
+}
+
+.calculator h1 {
+  font-size: 35px;
+}
+
+.calculator h1 {
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+.calculator {
+  width: 400px;
+  height: 450px;
+  background-color: black;
+  align-items: flex-start;
+  left: 15%;
+  bottom: 0%;
+  padding: 10px 0px 0px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.calculator input {
+  padding: 7px;
+  width: 70%;
+  margin-top: 7px;
+}
+
 @media only screen and (max-width: 768px) and (min-width: 450px){
 
     button {
